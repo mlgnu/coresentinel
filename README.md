@@ -21,6 +21,9 @@ Start the application and all required services using Docker Compose:
       
       docker-compose up --build
 
+Open the OpenAPI documentation using the link:
+      http://localhost:8080/api/swagger-ui/index.html
+
 4. Configure Google Cloud Storage (For Image Evidence Uploads)
 
 The system integrates with Google Cloud Storage to manage image evidence.
